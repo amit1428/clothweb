@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#x{
+   margin-left: 700px !important;
+}
+.fa-solid {
+    margin-top: 15px !important;
+    padding-left: 10px;
+
+}
+.carousalmain{
+    height: 650px;
+    width:100%;
+    background-color: rgb(188, 185, 185);
+    position: relative;
+}
+.mainL{
+    height: 650px;
+    width: 600px;
+    /* background-color: yellow; */
+    position: absolute;
+}
+.mainL h1{
+    color: red;
+    padding: 100px 0 0 200px;
+}
+.mainL h2,p {
+    padding: 0 0 0 200px;
+    text-align: justify;
+}
+.mainL button{
+    margin: 0 0 0 200px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+
+/* .mainR{
+    height:100%;
+    width: 40%;
+    background-color: tomato;
+    float: right;
+} */
+section{
+    height: 250px;
+    width:100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    height: 50px;
+    width:100%;
+    padding-top: 10px;
+    /* background-color: yellow; */
+}
+.h1 h1{
+    display: flex;
+    justify-content: center;
+}
+section .div1{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(13, 13, 35);
+    margin: 10px;
+    justify-content: space-evenly;
+    
+}
+section .fa-solid{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+section h3{
+    color: white;
+    padding-top:20px ;
+    justify-content: center;
+    display: flex
+}
+section p{
+    color: white;   
+    width: 250px;
+    padding-left: 40px;
+     text-align: justify; 
+}
+aside{
+    height: 350px;
+    width:100%;
+    background-color: rgb(188, 185, 185);
+}
+aside .left{
+    height:100%;
+    width:40%;
+    /* background-color: aqua; */
+    float: left;
+}
+aside .right{
+    height: 100%;
+    width:60%;
+    /* background-color: blueviolet; */
+    float: right;
+}
+aside h1{
+    font-size: 70px;
+    color:rgb(13, 13, 35);
+    padding-top: 30px;
+    font-family: serif;
+    padding-left: 100px;
+}
+aside p{
+    padding-right: 90px;
+    padding-left: 100px;
+}
+aside button{
+    background-color: palevioletred;
+    padding: 5px;
+    /* border-radius: 5px; */
+    width: 130px;
+    margin-left: 100px;;
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cards{
+    height: 400px;
+    width:100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+.card-text {
+    margin-left: -200px;
+    
+}
+.card{
+    margin-top: 50px;
+    height: 350px;
+    margin: 15px;
+    /* background-color: rgb(251, 248, 248); */
+}
+.card .card-text{
+    text-align: center;
+}
+.card img{
+    margin-top: 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
